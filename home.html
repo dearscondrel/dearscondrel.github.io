@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Eclipses</title>
+<link rel="icon"href="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\image\Layer 1.png">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+     footer {
+         color: #efecea;
+             font-family: 'Droid Arabic Kufi', Arial, sans-serif;
+            text-align: right;
+            margin: 0px;
+            padding: 8px;
+            background-color: #C7BFB1;
+            margin: 0px;
+            padding: 110px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+      
+/* استهداف زر الرجوع للأعلى */
+html {
+  scroll-behavior: smooth;
+  padding: 8px;
+  margin: 0px;
+}
+
+
+.centered-image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* تحديد ارتفاع العنصر ليكون نصف ارتفاع الشاشة */
+    }
+
+    /* تكبير الصورة لتملأ معظم الشاشة */
+    .fullscreen-image {
+      max-width: 100%;
+      max-height: 100%;
+      cursor: pointer;
+    }
+
+
+/* تنسيق العنصر المحتوي على الرابط في الوسط */
+.centered-content {
+  text-align: center; /* وسط النص */
+  margin-top: 20px; /* تباعد أعلى العنصر عن الأعلى */
+}
+ 
+.w3-top {
+  position: fixed;
+  top: 4%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 999;
+ 
+}
+.w3-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top"> 
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a href="home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="game.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Game</a>
+    <a href="Reels.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reels</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:50px 16px">
+  <h1 class="w3-margin w3-jumbo">watch the story</h1>
+  <iframe src="https://online.fliphtml5.com/vmmzr/tgfq/" width="1200" height="800"></iframe>
+    
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half"> <!-- تم تغيير النسبة إلى النصف -->
+      <!-- هنا نقوم بإضافة الصورة على اليسار -->
+      <img src="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\video\solar eclipse .gif" alt="Your GIF" class="w3-lift-align w3-padding-lift" style="max-width: 500px;  padding: 20px;margin: 0px; max-height: auto; float: right;">
+    </div> 
+
+    <div class="w3-half ">
+      <h1 class="w3-text-red">Solar Eclipses</h1>
+      <h5 class="w3-padding-32 w3-xlarge">Solar eclipses occur when the Sun, the Moon, and Earth line up, either fully or partially. Depending on how they align, eclipses provide a unique, exciting view of either the Sun or the Moon.</h5>
+
+      <p class="w3-text w3-large">Total Solar Eclipse
+        A total solar eclipse happens when the Moon passes between the Sun and Earth,
+         completely blocking the face of the Sun. People located in the center of the Moon’s shadow when it hits Earth will experience a total eclipse. The sky will darken, as if it were dawn or dusk. Weather permitting, people in the path of a total solar eclipse can see the Sun’s corona, the outer atmosphere, which is otherwise usually obscured by the bright face of the Sun. A total solar eclipse is the only type of solar eclipse where viewers can momentarily remove their eclipse glasses (which are not the same as regular sunglasses) for the brief period of time when the Moon is completely blocking the Sun. The next total solar eclipse in the U.S. will be on April 8, 2024.
+      </p>
+      <p class="w3-text w3-large">
+        Partial Solar Eclipse
+        A partial solar eclipse happens when the Moon passes between the Sun and Earth but the Sun, Moon, and Earth are not perfectly lined up. Only a part of the Sun will appear to be covered, giving it a crescent shape. During a total or annular solar eclipse, people outside the area covered by the Moon’s inner shadow see a partial solar eclipse. </p>
+    </div>
+  </div>
+</div>
+<div class="w3-container">
+  <!-- استخدم وسم div لتحقيق العرض الكامل -->
+  <div class="w3-container centered-image-container">
+    <!-- استخدم وسم img لعرض الصورة -->
+    <img src="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\image\solar.png" alt="Solar Image" class="fullscreen-image" onclick="toggleFullScreen(this)">
+  </div>
+  <div class="w3-container w3-black w3-center  w3-padding-64" style="background-image: url('C:\\Users\\mahdi\\OneDrive\\Desktop\\nasa\\HTML\\image\\space.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <h1 class="w3-margin w3-xxxlarge">if you want to see 3D simulator for space</h1>
+    
+    <a href="https://theskylive.com/3dsolarsystem" class="w3-button w3-red w3-padding-large w3-large w3-margin-top" target="_blank">Click here</a>
+</div>
+<!-- Second Grid -->
+
+
+
+      <div class="w3-content">
+        <div class="w3-twothird w3-padding-32">
+            <h1 class="w3-text-red">Lunar Eclipse</h1>
+            <h5 class="w3-padding-32 w3-xlarge">Lunar eclipses occur at the full moon phase. When Earth is positioned precisely between the Moon and Sun, Earth’s shadow falls upon the surface of the Moon, dimming it and sometimes turning the lunar surface a striking red over the course of a few hours. Each lunar eclipse is visible from half of Earth.</h5>
+            <p class="w3-text w3-large">There are three different types of lunar eclipses:
+              Total lunar eclipse
+              The Moon moves into the inner part of Earth’s shadow, or the umbra. Some of the sunlight passing through Earth’s atmosphere reaches the Moon’s surface, lighting it dimly. Colors with shorter wavelengths ― the blues and violets ― scatter more easily than colors with longer wavelengths, like red and orange. Because these longer wavelengths make
+               it through Earth’s atmosphere, and the shorter wavelengths have scattered away, the Moon appears orangish or reddish during a lunar eclipse. The more dust or clouds in Earth’s atmosphere during the eclipse, the redder the Moon appears.
+              
+              Partial lunar eclipse
+              An imperfect alignment of Sun, Earth and Moon results in the Moon passing through only part of Earth's umbra. The shadow grows and then recedes without ever entirely covering the Moon.
+              
+              
+              Penumbral eclipse
+              If you don’t know this one is happening, you might miss it. The Moon travels through Earth’s penumbra, or the faint outer part of its shadow. The Moon dims so slightly that it can be difficult to notice.</p>
+        </div>
+        
+        <div class="w3-third  w3-padding-32">
+          <img  src="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\video\lunar.gif" alt="Lunar GIF"  width="100%">
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+<div class="w3-container centered-image-container">
+  <!-- استخدم وسم img لعرض الصورة -->
+  <img src="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\image\lunar.jpg" alt="lunar Image" class="fullscreen-image" style="width: 50%;" onclick="toggleFullScreen(this)">
+</div>
+
+
+<!-- Footer -->
+<footer>
+
+  <div class="scroll-to-top">
+    <a href="#top">
+      <img  src="C:\Users\mahdi\OneDrive\Desktop\nasa\HTML\image\Asset 3.png"style="position: fixed; left: 20px; bottom: 20px;width="10" height="40">
+    </a>
+  </div> 
+  
+  <!-- Add an ID to the top of your page for the anchor -->
+  <div id="top"></div>
+  <!-- Your footer content here -->
+</footer>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Smooth scrolling to top
+document.querySelector('.scroll-to-top a').addEventListener('click', function(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+function toggleFullScreen(image) {
+    if (!document.fullscreenElement) {
+      // دخول الوضع العرض الكامل
+      if (image.requestFullscreen) {
+        image.requestFullscreen();
+      } else if (image.mozRequestFullScreen) { // Firefox
+        image.mozRequestFullScreen();
+      } else if (image.webkitRequestFullscreen) { // Chrome, Safari, Opera
+        image.webkitRequestFullscreen();
+      } else if (image.msRequestFullscreen) { // IE/Edge
+        image.msRequestFullscreen();
+      }
+    } else {
+      // الخروج من الوضع العرض الكامل
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) { // Firefox
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { // IE/Edge
+        document.msExitFullscreen();
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
